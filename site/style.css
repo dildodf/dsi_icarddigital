@@ -138,3 +138,73 @@ body {
             opacity: 0.9;
             background-color: #555;
         }
+
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 300px;
+            margin: 50px auto;
+        }
+        
+        .login-button, .menu-button {
+            padding: 12px;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .login-button {
+            background-color: white;
+            color: black;
+        }
+        
+        .menu-button {
+            background-color: red;
+            color: white;
+        }
+        
+        .login-button:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .menu-button:hover {
+            background-color: darkred;
+        }
+        .btn-continuar {
+            background-color: red;
+            color: white;
+        }
+        .btn-voltar {
+            background-color: #4CAF50;
+            color: white;
+        }
+     /*nlogin.css*/
+        .responsive-form {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .form-group label {
+        color: #000; /* cor preta para a descrição dos campos */
+    }
+    
+    .form-group input,
+    .form-group select {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    
+    @media (max-width: 600px) {
+        .form-group {
+            padding: 0 10px;
+        }
+    }
