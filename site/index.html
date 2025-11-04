@@ -26,22 +26,24 @@
         <div class="container">
             <h1>Bem-vindo</h1>
             <button class="btn btn-acessar" onclick="acessar()">Fornecedor:Acessar</button>
-            <button class="btn btn-conta" onclick="criarConta()">Ciente: Conta Grátis</button>
+            <button class="btn btn-conta" onclick="criarConta()">Cliente: Conta Grátis</button>
+            <button class="btn btn-a-cardapio" onclick="a_cardapio()">Cliente: acessar cardápio</button>
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2024 IcardDigital. Todos os direitos reservados.</p>
-    </footer>
-
-    <script>
+<script>
         function acessar() {
             window.location.href = 'nlogin.html';
         }
 
         function criarConta() {
-            window.location.href = 'cadastro.html';
+            window.location.href = 'conta_cliente.html';
+        }
+        function a_cardapio() {
+            window.location.href = 'c_acesso.html';
         }
     </script>
+    <footer>
+        <p>&copy; 2024 IcardDigital. Todos os direitos reservados.</p>
+    </footer>   
 </body>
 </html>
